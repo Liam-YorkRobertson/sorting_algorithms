@@ -25,7 +25,11 @@ void bubble_sort(int *array, size_t size)
 		}
 		for (j = 0; j < size; j++) /*prints array*/
 		{
-			printf("%d ", array[j]);
+			printf("%d", array[j]);
+			if (j < size - 1)
+			{
+				printf(", ");
+			}
 		}
 		printf("\n");
 	}
