@@ -6,6 +6,7 @@
  * @size: size of array
  * Return: none (void)
  */
+
 void selection_sort(int *array, size_t size)
 {
 	size_t i, j, min;
